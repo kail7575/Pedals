@@ -1,0 +1,184 @@
+*{
+    margin: auto;
+    padding: 0px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(IMG/1000_F_218473007_QFceUeXUCiWbtnokoMxNa3gpXi40lUJ2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+}
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 50%;
+    justify-items: center;
+}
+.nav-left a{
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+    font-size: larger;
+}
+.nav-links{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 600px;
+}
+.logo img{
+    width: 100px;
+    height: 70px;
+}
+.nav-right{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 50%;
+text-decoration: none;
+}
+.nav-right a{
+    text-decoration: none;
+    color: rgb(165, 165, 165);
+    font-size: larger;
+}
+.cont-1{
+    padding: 40px;
+    max-width: 600px;
+    margin-top: 93px;
+    margin-bottom: 93px;
+    text-align: center;
+    font-size: 350%;
+}
+.ttl-1{
+    color: black;
+    padding: 10px;
+}
+.ttl-2{
+    font-size: 60%;   
+}
+.cont-btn{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    color: rgb(0, 0, 0);
+    max-width: fit-content;
+    align-items: start;
+    font-size: 70%;
+    text-decoration: none;
+}
+.discr{
+    background-color: aliceblue;
+}
+.discr-1{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    
+}
+.discr-1> .discr-1-txt{
+    
+    font-size: 30px;
+    padding-bottom: 20px;
+    max-width: 500px;
+}
+ .discr-1-p{
+font-size: 15px;
+padding-top: 10px;
+padding-bottom: 30px;
+}
+.discr-1> .discr-1-img{
+    padding: 30px;
+}
+.discr-1-btn{
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    max-width: fit-content;
+    align-items: start;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.discr-2{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+.discr-2> .discr-2-txt{
+    
+    font-size: 30px;
+    padding-bottom: 20px;
+    max-width: 500px;
+}
+ .discr-2-p{
+font-size: 15px;
+padding-top: 10px;
+padding-bottom: 30px;
+}
+.discr-2> .discr-2-img{
+    padding: 30px;
+}
+.discr-2-btn{
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    max-width: fit-content;
+    align-items: start;
+    font-size: 20px;
+    text-decoration: none;
+}
+.Suggestions{
+    padding: 30px;
+}
+.sgst{
+    border: solid black;
+    width: 475px;
+}
+.Suggestions img{
+    width: 475px;
+}
+.Suggestions-ttl{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.Suggestions-txt{
+    padding-bottom: 30px;
+    font-weight: 50px;
+}
+.sgst-prx{
+    padding: 10px;
+    font-size: 20px;
+}
+.sgst-ttl{
+    padding: 10px;
+}
+.sgst-p{
+    padding: 10px;
+}
+.sgst-btn{
+    border-radius: 20px;
+    background-color: rgb(78, 78, 78);
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    max-width: fit-content;
+    align-items: start;
+    font-size: 20px;
+    text-decoration: none;
+}
